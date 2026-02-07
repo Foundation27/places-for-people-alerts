@@ -4,7 +4,8 @@ import smtplib
 from email.mime.text import MIMEText
 import os
 
-SEARCH_URL = "https://www.placesforpeople.co.uk/find-a-home/rent/?location=London"
+SEARCH_URL = "https://rent.placesforpeople.co.uk/properties.aspx?loc=Watford&lat=51.66112829999999&lon=-0.3970199&mil=50&max=9999&bed=1&typ=0&pag=1"
+
 
 EMAIL_FROM = os.environ.get("ALERT_EMAIL_FROM")
 EMAIL_TO = os.environ.get("ALERT_EMAIL_TO")
